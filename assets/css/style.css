@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #0b0c0f;
+}
+
+.master{
+    position: absolute;
+    /* display: flex; */
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/hulubg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+}
+
+.login{
+    font-size: 14px;
+    color: #a8afbd;
+    font-weight: 700;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.login:hover{
+    background-color: gray;
+}
+
+.nav{
+    position: relative;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.master-content{
+    padding: 40px 60px;
+    margin-top: 100px;
+}
+
+.hulubg{
+    width: 100%;
+    height: 660px;
+    filter: contrast(50%);
+}
+
+.hulubg img{
+    width: 100%;
+    height: 660px;
+}
+
+.plan-card-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 10px; */
+}
+
+.plan-card-image img{
+    height: 60px;
+    width: auto;
+}
+
+.plan-card-title{
+    color: #00ED82;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 0 24px;
+}
+
+.plan-card-title1{
+    margin: 16px 0 0;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    /* color: #00ED82; */
+    letter-spacing: .5px;
+}
+
+.flex-plans{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.plan-card-btn{
+    width: 319px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6em;
+    align-items: center;
+    background-color: #1ce783;
+    border-radius: 6px;
+}
+
+.plan-card-btn button{
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    color: #040405;
+    cursor: pointer;
+}
+
+.plan-card-btn:hover{
+    filter: opacity(50%);
+    cursor: pointer;
+}
+
+.terms{
+    margin: 16px 219px 0;
+    text-align: center;
+}
+
+.terms a{
+    color: white;
+}
+
+.terms p {
+    margin-top: 30px;
+}
+
+.library{
+    padding-top: 94vh;
+    /* padding-bottom: 50px; */
+}
+
+.library-flex{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.library-cards{
+    height: 450px;
+    width: 295px;
+    /* margin-right: 150px; */
+}
+.library-content span{
+    color: #00ED82;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.library-content h2{
+    color: white;
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.library-content p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.library-image{
+    position: absolute;
+}
+
+.library-title{
+    padding: 25px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.library-image img{
+    height: 450px;
+    filter: opacity(70%);
+    border-radius: 8px;
+}
+
+.l-titl{
+    font-size: 12px;
+    color: #fafcff;
+}
+
+.l-tag{
+    font-size: 20px;
+    padding: 8px 0;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.premium-text{
+    padding-top: 360px;
+    font-size: 10px;
+    color: #a8afbd;
+}
+
+.library-cards:hover{
+    filter: opacity(50%);
+    cursor: pointer;
+    border-radius: 8px;
+    border: 4px solid #797d84;
+    padding: 3px;
+}
+
+
+.billboard{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.billboard-title{
+    color: #1ce783;
+    font-family: Graphik Web,Graphik,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .6px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.billboard-subtitle{
+    font-family: Graphik Web,Graphik,sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 15px;
+    letter-spacing: -.5px;
+    text-transform: none;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.billboard-text{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+.billboard-p{
+    font-family: Graphik Web,Graphik,sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.46;
+    text-transform: none;
+    color: hsla(0,0%,100%,.6);
+    text-align: center;
+}
+
+.billboard-link{
+    color: white;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.spotlight{
+    background-image: url(/assets/images/original\ \(5\).jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.spolight-nav{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.spolight-nav-inactive{
+    color: #ffffff66;
+    font-size: 12px;
+}
+
+.spolight-nav-active{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 12px;
+    border-bottom: 4px solid white;
+}
+
+.spolight-title{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.spolight-desc{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 50px;
+    line-height: 1.36;
+    letter-spacing: 0;
+    color: white;
+}
+
+.spotlight-content{
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+.spotlight-logos{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.spotlight-cards{
+    background-image: url(/assets/images/network-logo-bg@2x.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55px;
+    width: 55px;
+}
+
+.logos1{
+    position: relative;
+    top:30%;
+    left: 10%;
+    width: 44px;
+    height: 25px;
+}
+
+.spotlight p{
+    font-family: Graphik Web,Graphik,sans-serif;
+    font-size: 10px;
+    padding-top: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.46;
+    text-transform: none;
+    color: hsla(0,0%,100%,.6);
+}
